@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import coverImg from '../../assets/images/cover_static.png';
 import { Container } from './styles';
 
 
@@ -10,9 +9,9 @@ function NavBar() {
 
         <div className="cover">
           <a href="">
-            <img alt="Profile Picture"
-              src={coverImg}
-            />
+
+            lol
+
           </a>
         </div>
 

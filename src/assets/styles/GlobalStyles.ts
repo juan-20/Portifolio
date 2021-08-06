@@ -8,6 +8,7 @@ export default createGlobalStyle`
     margin: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 html, #root, body{
@@ -20,6 +21,22 @@ html, #root, body{
     border: 0;
     outline: 0;
 }
+&::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 90px;
+      scroll-behavior: smooth;
+      background-color: rgb(248, 249, 250);
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 90px;
+      background-color: rgb(248, 249, 250);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgb(64, 75, 90);
+      border-radius: 90px;
+    }
+  }
 
 
 `;

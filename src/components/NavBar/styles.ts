@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 >nav{
-
     a{
+        cursor: pointer;
         color: #BBC8CA;
         :hover{
             filter: brightness(0.6);
